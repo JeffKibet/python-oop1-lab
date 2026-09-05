@@ -21,5 +21,6 @@ class Coffee:
 
 
     def tip(self):
-        print("This coffee is great, here\u2019s a tip!")
+        print("This coffee is great, here\u2019s a tip!") 
+        # \u2019 is the escape code for the right single quotation mark (’)
         self.price += 1
