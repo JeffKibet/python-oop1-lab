@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
 
 class Coffee:
-    pass
+
+    VALID_SIZES = ["Small", "Medium", "Large"]
+
+    def __init__(self, size, price):
+        self.size = size
+        self.price = price
+
+        
