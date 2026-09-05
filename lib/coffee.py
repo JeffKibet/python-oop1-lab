@@ -8,4 +8,6 @@ class Coffee:
         self.size = size
         self.price = price
 
-        
+    @property
+    def size(self):
+        return self._size    
